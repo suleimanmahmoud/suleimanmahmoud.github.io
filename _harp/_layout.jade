@@ -1,6 +1,20 @@
+include mixins
 doctype
 html
-  head
-    link(rel="stylesheet" href="/main.css")
-  body
-    != yield
+        head
+            meta(charset="utf-8")
+            meta(http-equiv="X-UA-Compatible" content="IE=edge")
+            meta(name="viewport" content="width=device-width, initial-scale=1")
+            meta(name="description" content="#{ description }")
+            link(rel="stylesheet" href="/main.css")
+            link(rel="stylesheet" href="/cover.css")
+            title= title
+            script(src="/js/jquery-1.11.3.min.js")
+            script(src="/js/bootstrap.min.js")
+            script(src="/js/ie10-viewport-bug-workaround.js")
+                
+        body
+            != partial("_shared/nav")
+            != yield
+        footer
+            p Copyright (c) 

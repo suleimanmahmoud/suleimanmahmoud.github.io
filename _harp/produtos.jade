@@ -1,0 +1,6 @@
+h1 Nossos produtos
+
+ul
+  each item, slug in public.items._data
+    li
+      a(href="/items/#{ slug }") #{ item.title }

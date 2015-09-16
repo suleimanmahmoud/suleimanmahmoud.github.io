@@ -1,0 +1,18 @@
+{
+ "index": {
+    "title": "This is my home page",
+    "description": "Best home page ever"
+  },
+  "sobre": {
+    "title": "Sobre a Fertilizantes Campos Novos",
+    "description": "Lalalalalalalala"
+  },
+  "produtos": {
+    "title": "Nossos produtos",
+    "description": "I’m awesome and so are you"
+  },
+  "contato": {
+    "title": "Entre em contato",
+    "description": "contato@fertilizantescamposnovos.com"
+  }
+}
