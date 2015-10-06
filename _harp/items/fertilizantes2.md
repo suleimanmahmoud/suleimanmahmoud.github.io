@@ -1,1 +1,0 @@
-# Fertilizante Caregoria 1
